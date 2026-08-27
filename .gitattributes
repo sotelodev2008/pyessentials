@@ -1,1 +1,2 @@
 *.md detectable=true
+README.md detectable=false
