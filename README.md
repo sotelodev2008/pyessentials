@@ -2,5 +2,5 @@
 
 | Text | Text2 |
 | :--- | :---: |
-| sample | [] |
-| sample2 | [x]|
+| sample | &#9744; |
+| sample2 | &#9745; |
