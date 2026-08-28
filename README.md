@@ -1,6 +1,10 @@
 # pyessentials - Library Meta-Installer for Python
 
-![Banner](banner.jpeg)
+<div align="center">
+
+![Banner](./banner.png)
+
+</div>
 
 ## 📋 Table of Contents / Indice
 
