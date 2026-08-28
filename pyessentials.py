@@ -48,12 +48,12 @@ class pyessentials:
             else:
                 pip = self.OS_CHECK()
                 if self.argument == "-A": # All-In
-                    lista = ["openpyxl", "pypdf", "python-docx", "playwright", "selenium", "netmiko", "paramiko", "psutil", "pyautogui", "schedule", "watchdog", # Automation
+                    lista = ["openpyxl", "pypdf", "python-docx", "playwright", "selenium", "netmiko", "paramiko", "keyboard", "mouse", "psutil", "pyautogui", "pynput", "schedule", "watchdog", # Automation
                     "opencv-python", "alright", "discord.py", "python-telegram-bot", "pywhatkit", "twitchio", "praw", "tweepy",] #Bots
                     run([pip, "install", *lista])
                     getout()
                 elif self.argument == "-a": # Automation
-                    lista = ["openpyxl", "pypdf", "python-docx", "playwright", "selenium", "netmiko", "paramiko", "psutil", "pyautogui", "schedule", "watchdog"]
+                    lista = ["openpyxl", "pypdf", "python-docx", "playwright", "selenium", "netmiko", "paramiko", "keyboard", "mouse", "psutil", "pyautogui", "pynput", "schedule", "watchdog"]
                     run([pip, "install", *lista])
                     getout()
                 elif self.argument == "-b": # Big Data
