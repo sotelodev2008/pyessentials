@@ -1,5 +1,6 @@
 # pyessentials - Library Meta-Installer for Python
 
+![Banner](banner.jpeg)
 
 ## 📋 Table of Contents / Indice
 
@@ -28,14 +29,14 @@
 
 ## 🇬🇧 English Guide
 
-### 📖 Overview
+## 📖 Overview
 
 **pyessentials** is a command-line utility designed to simplify your Python development workflow. It allows you to bulk-install groups of libraries and APIs organized into specialized development domains ("programming campuses"), adapting automatically to your active operating system.
 
 **pyessentials** es una herramienta de línea de comandos diseñada para simplificar la configuración del entorno de desarrollo de Python. Permite instalar de forma masiva grupos de librerías y APIs organizadas por categorías especializadas ("campus de programación"), adaptándose automáticamente al sistema operativo detectado.
 
 
-### ✨ Features
+## ✨ Features
 
 *   **Modular Installation:** Choose the exact category of libraries you need based on your study field or project target.
 *   **Cross-Platform Support:** Automatically detects whether you are running on Windows (using `pip`) or Linux/macOS (using `pip3`).
@@ -44,7 +45,7 @@
 
 
 
-### 🛠️ Prerequisites
+## 🛠️ Prerequisites
 
 *   **Python 3.x** installed and configured on your operating system.
 *   The **pip** or **pip3** package manager added correctly to your system's environment variables (`PATH`).
@@ -52,11 +53,11 @@
 
 
 
-### 🚀 Usage
+## 🚀 Usage
 
 To execute the meta-installer, open a terminal window in the directory where the script is located and pass the flag corresponding to your desired category.
 
-#### Basic Syntax
+### Basic Syntax
 
 **On Windows Systems:**
 ```bash
@@ -71,7 +72,7 @@ python3 pyessentials.py [Argument]
 *If you execute the script **without any arguments**, the program will display a welcome message listing the available categories along with a direct link to the project repository so you can review the details for each one.*
 
 
-### 📌 Available Arguments
+## 📌 Available Arguments
 
 If you want to see the list of APIs / Libraries on every campus [click here](./List_EN.md) 
 
@@ -99,7 +100,7 @@ You can pass the `-h` flag at any time to display the help menu with detailed de
 
 
 
-### 🎯 Quick Example
+## 🎯 Quick Example
 
 If you want to start learning the Automation track and need to prepare your environment inside a Linux terminal, simply run:
 
@@ -111,10 +112,10 @@ The script will render the custom banner and trigger the bulk installation of th
 
 ---
 
-## 🇪🇸 Guía en Español
+# 🇪🇸 Guía en Español
 
 
-### ✨ Características
+## ✨ Características
 
 *   **Instalación Modular:** Elige la categoría exacta de librerías que necesitas según tu área de estudio o trabajo.
 *   **Multiplataforma:** Detecta automáticamente si estás en Windows (usando `pip`) o en Linux/macOS (usando `pip3`).
@@ -123,18 +124,18 @@ The script will render the custom banner and trigger the bulk installation of th
 
 
 
-### 🛠️ Requisitos previos
+## 🛠️ Requisitos previos
 
 *   **Python 3.x** instalado en el sistema operativo.
 *   El administrador de paquetes **pip** o **pip3** configurado correctamente en las variables de entorno (`PATH`).
 *   Se sugiere ejecutar este instalador dentro de un venv (Espacio Virtual) para proteger la integridad de tus paquetes globales.
 
 
-### 🚀 Uso
+## 🚀 Uso
 
 Para ejecutar el instalador, abre una terminal en la ruta donde se encuentra guardado el script y pásale el argumento correspondiente a la categoría deseada.
 
-#### Sintaxis básica
+### Sintaxis básica
 
 **En sistemas Windows:**
 ```bash
@@ -149,7 +150,7 @@ python3 pyessentials.py [Argumento]
 *Si ejecutas el script **sin argumentos**, el programa mostrará un mensaje de bienvenida que enumera las categorías disponibles junto con un enlace directo al repositorio del proyecto para que puedas consultar los detalles de cada una.*
 
 
-### 📌 Argumentos Disponibles
+## 📌 Argumentos Disponibles
 
 Si quieres ver la lista de APIs / Librerias de cada campus, [haz click aquí](./List_ES.md)
 
@@ -177,7 +178,7 @@ Puedes usar el parámetro `-h` para desplegar el menú de ayuda con la descripci
 
 ---
 
-### 🎯 Ejemplo
+## 🎯 Ejemplo
 
 Si vas a iniciar en el campus de automatización y necesitas preparar tu entorno en un sistema Linux, abre la terminal y escribe:
 
