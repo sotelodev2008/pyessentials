@@ -49,7 +49,8 @@ class pyessentials:
                 pip = self.OS_CHECK()
                 if self.argument == "-A": # All-In
                     lista = ["openpyxl", "pypdf", "python-docx", "playwright", "selenium", "netmiko", "paramiko", "keyboard", "mouse", "psutil", "pyautogui", "pynput", "schedule", "watchdog", # Automation
-                    "opencv-python", "alright", "discord.py", "python-telegram-bot", "pywhatkit", "twitchio", "praw", "tweepy",] #Bots
+                    "opencv-python", "alright", "discord.py", "python-telegram-bot", "pywhatkit", "twitchio", "praw", "tweepy", #Bots
+                    "customtkinter", "dearpygui", "flet", "kivy", "PySide6", "wxPython",] # Desktop Apps
                     run([pip, "install", *lista])
                     getout()
                 elif self.argument == "-a": # Automation
@@ -67,7 +68,7 @@ class pyessentials:
                     print("Work In Progress")
                     getout()
                 elif self.argument == "-D": # Desktop Apps
-                    print("Work In Progress")
+                    lista = ["customtkinter", "dearpygui", "flet", "kivy", "PySide6", "wxPython"]
                     getout()
                 elif self.argument == "-V": # Data Visualization
                     print("Work In Progress")
