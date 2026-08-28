@@ -1,8 +1,8 @@
-# pyessentials - Library Meta-Installer for Python
-
 <div align="center">
 
 ![Banner](./banner.png)
+
+# pyessentials - Library Meta-Installer for Python
 
 </div>
 
