@@ -12,8 +12,9 @@
 
 ## Indice
 
-- [⚙️ Automatización](#️-automatización)
+- [⚙️ Automatización](#-automatización)
 - [🤖 Bots](#-bots)
+- [🖥️ Apps De Escritorio](#-apps-de-escritorio)
 
 ### ⚙️ Automatización
 
@@ -46,3 +47,15 @@
 | [twitchio](https://twitchio.dev) | Bots para Mensajería | Diseñada específicamente para crear bots de chat en Twitch, ideal para moderar canales, leer alertas o interactuar con los espectadores en vivo. | Moderación automatizada de chats de Twitch, respuesta a comandos de espectadores, gestión de puntos del canal y alertas personalizadas en streams. | &#9744; |
 | [praw](https://praw.readthedocs.io/en/stable/) | Bots para Redes Sociales | La librería oficial para interactuar con Reddit. Te permite crear bots que moderen subreddits, respondan comentarios basados en palabras clave o publiquen hilos. | Moderación automática de subreddits, publicación programada de contenido, análisis de tendencias y respuesta automatizada a comentarios. | &#9744; |
 | [tweepy](https://docs.tweepy.org/en/stable/) | Bots para Redes Sociales | La librería estándar para conectar con la API de X (anteriormente Twitter). Sirve para automatizar tweets, buscar hashtags o monitorizar cuentas en tiempo real. | Publicación automatizada de tweets, monitorización de hashtags y menciones, análisis de sentimiento en redes y gestión de cuentas de X/Twitter. | &#9744; |
+
+### 🖥️ Apps De Escritorio
+
+| Libreria/Api | Categoria | Descripción | Uso Principal | Preinstalada |
+| :--- | :--- | :--- | :--- | :---: |
+| [customTkinter](https://customtkinter.tomschimansky.com/) | GUI Frameworks | Extensión moderna de Tkinter con diseño oscuro automático y componentes visuales estilizados de forma nativa. | Crear interfaces modernas y atractivas sin la estética antigua de Tkinter tradicional. | &#9744; |
+| [Dear PyGui](https://dearpygui.readthedocs.io/en/latest/) | GUI Frameworks | Framework de interfaz gráfica rápido, de bajo nivel y renderizado por GPU mediante C++ (Dear ImGui). | Aplicaciones que requieren alto rendimiento, herramientas de desarrollo y procesamiento de gráficos. | &#9744; |
+| [Flet](https://flet.dev/docs/) | GUI Frameworks | Framework basado en Flutter que permite construir aplicaciones web, móviles y de escritorio en Python. | Desarrollo rápido de interfaces modernas y reactivas con un solo código base. | &#9744; |
+| [Kivy](https://kivy.org/doc/stable/) | GUI Frameworks | Librería de código abierto para el desarrollo de aplicaciones con interfaces táctiles y soporte multiplataforma. | Aplicaciones con diseños altamente personalizados, quioscos interactivos y soporte móvil. | &#9744; |
+| [PySide](https://doc.qt.io/qtforpython-6/) | GUI Frameworks | Enlaces (bindings) oficiales y comunitarios del potente framework industrial Qt en C++. | Aplicaciones empresariales complejas, robustas y de nivel profesional con herramientas de diseño (Qt Designer). | &#9744; |
+| [Tkinter](https://docs.python.org/3/library/tk.html) | GUI Frameworks | La interfaz gráfica estándar por defecto que viene integrada en la instalación oficial de Python. | Prototipos rápidos, herramientas internas ligeras y aplicaciones sencillas que no requieran dependencias. | &#9745; |
+| [wxPython](https://docs.wxpython.org/) | GUI Frameworks | Enlace de Python para la biblioteca wxWidgets en C++, utilizando los componentes nativos del sistema operativo | Aplicaciones tradicionales que necesitan verse exactamente igual que los programas nativos del sistema. | &#9744; |
