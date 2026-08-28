@@ -84,7 +84,7 @@ You can pass the `-h` flag at any time to display the help menu with detailed de
 | `-b` | **Big Data** | &#9744; |
 | `-B` | **Bots** | &#9745; |
 | `-d` | **Data Science** | &#9744; |
-| `-D` | **Desktop Apps** | &#9744; |
+| `-D` | **Desktop Apps** | &#9745; |
 | `-V` | **Data Viz** | &#9744; |
 | `-o` | **DevOPS** | &#9744; |
 | `-f` | **FinTech** | &#9744; |
