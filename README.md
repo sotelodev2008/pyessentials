@@ -84,22 +84,22 @@ You can pass the `-h` flag at any time to display the help menu with detailed de
 
 | Flag | Category | Complete |
 | :--- | :--- | :---: |
-| `-A` | **All-In** | ***Temporarily*** |
+| `-A` | **All-In** | &#9745; |
 | `-a` | **Automation** | &#9745; |
-| `-b` | **Big Data** | &#9744; |
+| `-b` | **Big Data** | &#9745; |
 | `-B` | **Bots** | &#9745; |
-| `-d` | **Data Science** | &#9744; |
+| `-d` | **Data Science** | &#9745; |
 | `-D` | **Desktop Apps** | &#9745; |
-| `-V` | **Data Viz** | &#9744; |
-| `-o` | **DevOPS** | &#9744; |
-| `-f` | **FinTech** | &#9744; |
-| `-I` | **IA / AI** | &#9744; |
-| `-i` | **IoT** | &#9744; |
-| `-s` | **SysAdmin** | &#9744; |
-| `-p` | **Phone Apps** | &#9744; |
-| `-v` | **Videogames** | &#9744; |
-| `-w` | **Web (Back-End)**| &#9744; |
-| `-S` | **Web Scraping** | &#9744; |
+| `-V` | **Data Viz** | &#9745; |
+| `-o` | **DevOPS** | &#9745; |
+| `-f` | **FinTech** | &#9745; |
+| `-I` | **IA / AI** | &#9745; |
+| `-i` | **IoT** | &#9745; |
+| `-s` | **SysAdmin** | &#9745; |
+| `-p` | **Phone Apps** | &#9745; |
+| `-v` | **Videogames** | &#9745; |
+| `-w` | **Web (Back-End)**| &#9745; |
+| `-S` | **Web Scraping** | &#9745; |
 | `-h` | **Help** | &#9745; |
 
 
@@ -162,22 +162,22 @@ Puedes usar el parámetro `-h` para desplegar el menú de ayuda con la descripci
 
 | Argumento | Categoría | Terminado |
 | :--- | :--- | :---: |
-| `-A` | **All-In** | ***Temporalmente*** |
+| `-A` | **All-In** | &#9745; |
 | `-a` | **Automation** | &#9745; |
-| `-b` | **Big Data** | &#9744; |
+| `-b` | **Big Data** | &#9745; |
 | `-B` | **Bots** | &#9745; |
-| `-d` | **Data Science** | &#9744; |
-| `-D` | **Desktop Apps** | &#9744; |
-| `-V` | **Data Viz** | &#9744; |
-| `-o` | **DevOPS** | &#9744; |
-| `-f` | **FinTech** | &#9744; |
-| `-I` | **IA / AI** | &#9744; |
-| `-i` | **IoT** | &#9744; |
-| `-s` | **SysAdmin** | &#9744; |
-| `-p` | **Phone Apps** | &#9744; |
-| `-v` | **Videogames** | &#9744; |
-| `-w` | **Web (Back-End)**| &#9744; |
-| `-S` | **Web Scraping** | &#9744; |
+| `-d` | **Data Science** | &#9745; |
+| `-D` | **Desktop Apps** | &#9745; |
+| `-V` | **Data Viz** | &#9745; |
+| `-o` | **DevOPS** | &#9745; |
+| `-f` | **FinTech** | &#9745; |
+| `-I` | **IA / AI** | &#9745; |
+| `-i` | **IoT** | &#9745; |
+| `-s` | **SysAdmin** | &#9745; |
+| `-p` | **Phone Apps** | &#9745; |
+| `-v` | **Videogames** | &#9745; |
+| `-w` | **Web (Back-End)**| &#9745; |
+| `-S` | **Web Scraping** | &#9745; |
 | `-h` | **Help** | &#9745; |
 
 ---
