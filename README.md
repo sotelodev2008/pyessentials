@@ -84,7 +84,7 @@ You can pass the `-h` flag at any time to display the help menu with detailed de
 
 | Flag | Category | Complete |
 | :--- | :--- | :---: |
-| `-A` | **All-In** | ***Temporaly*** |
+| `-A` | **All-In** | ***Temporarily*** |
 | `-a` | **Automation** | &#9745; |
 | `-b` | **Big Data** | &#9744; |
 | `-B` | **Bots** | &#9745; |
