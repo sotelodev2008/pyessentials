@@ -69,6 +69,7 @@ To execute the meta-installer, open a terminal window in the directory where the
 ```bash
 python pyessentials.py [Argument]
 ```
+---
 
 ## 🇪🇸 Guía en Español
 
