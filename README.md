@@ -23,7 +23,7 @@
   
 
 **Contenido en Español:**
-- [📖 Descripción general](#-Overview)
+- [📖 Descripción general](#-descripción-general)
 - [✨ Características](#-caracteristicas)
 - [🛠️ Requisitos previos](#-requisitos-previos)
 - [🚀 Uso](#-uso)
@@ -38,8 +38,6 @@
 ## 📖 Overview
 
 **pyessentials** is a command-line utility designed to simplify your Python development workflow. It allows you to bulk-install groups of libraries and APIs organized into specialized development domains ("programming campuses"), adapting automatically to your active operating system.
-
-**pyessentials** es una herramienta de línea de comandos diseñada para simplificar la configuración del entorno de desarrollo de Python. Permite instalar de forma masiva grupos de librerías y APIs organizadas por categorías especializadas ("campus de programación"), adaptándose automáticamente al sistema operativo detectado.
 
 
 ## ✨ Features
@@ -70,3 +68,40 @@ To execute the meta-installer, open a terminal window in the directory where the
 **On Windows Systems:**
 ```bash
 python pyessentials.py [Argument]
+```
+
+## 🇪🇸 Guía en Español
+
+## 📖 Descripción general
+
+**pyessentials** es una herramienta de línea de comandos diseñada para simplificar la configuración de tu entorno de desarrollo en Python. Permite instalar de forma masiva grupos de librerías y APIs organizadas por categorías especializadas («campus de programación»), adaptándose automáticamente al sistema operativo detectado.
+
+## ✨ Características
+
+*   **Instalación modular:** Elige la categoría específica de librerías que necesites según tu área de estudio o el objetivo de tu proyecto.
+*   **Menú interactivo:** Ejecuta el script sin argumentos para acceder a un menú numerado de todos los «campus»; luego, explora una categoría para ver su lista completa de paquetes.
+*   **Selección individual de paquetes:** Dentro de una categoría, puedes instalar una única librería, un conjunto personalizado (por ejemplo, `1,3,5`) o la categoría completa seleccionando `0`, lo que te brinda un control total en lugar de una instalación masiva obligatoria.
+*   **Compatibilidad multiplataforma:** Detecta automáticamente si estás trabajando en Windows (usando `pip`) o en Linux/macOS (usando `pip3`).
+*   **Ejecución segura y optimizada:** Utiliza el desempaquetado de listas mediante el operador `*` para pasar argumentos a subprocesos externos de manera fiable.
+*   **Salida en terminal elegante:** Incluye un distintivo banner en formato ASCII y enlaces interactivos nativos mediante secuencias de escape ANSI, directamente en la consola.
+
+
+
+## 🛠️ Requisitos previos
+
+*   **Python 3.x** instalado y configurado en tu sistema operativo.
+*   El gestor de paquetes **pip** o **pip3** correctamente añadido a las variables de entorno (`PATH`) de tu sistema.
+*   Se recomienda encarecidamente el uso de un entorno virtual (venv) para evitar conflictos entre paquetes.
+
+
+
+## 🚀 Uso
+
+Para ejecutar el meta-instalador, abre una ventana de terminal en el directorio donde se encuentra el script y utiliza el argumento correspondiente a la categoría que desees.
+
+### Sintaxis básica
+
+**En sistemas Windows:**
+```bash
+python pyessentials.py [Argumento]
+```
