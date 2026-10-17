@@ -16,6 +16,7 @@
 - [✨ Features](#-features)
 - [🛠️ Prerequisites](#-prerequisites)
 - [🚀 Usage](#-usage)
+- [🖥️ Interactive Menu](#️-interactive-menu)
 - [📌 Available Arguments](#-available-arguments)
 - [🎯 Quick Example](#-quick-example)
 
@@ -26,6 +27,7 @@
 - [✨ Características](#-caracteristicas)
 - [🛠️ Requisitos previos](#-requisitos-previos)
 - [🚀 Uso](#-uso)
+- [🖥️ Menú Interactivo](#️-menú-interactivo)
 - [📌 Argumentos Disponibles](#-argumentos-disponibles)
 - [🎯 Ejemplo](#-ejemplo)
 
@@ -43,6 +45,8 @@
 ## ✨ Features
 
 *   **Modular Installation:** Choose the exact category of libraries you need based on your study field or project target.
+*   **Interactive Menu:** Run the script with no arguments to get a numbered menu of every campus, then drill into a category to see its full package list.
+*   **Individual Package Selection:** Inside a category you can install a single library, a custom set (e.g. `1,3,5`), or the whole category with `0`, giving you full control instead of a forced bulk install.
 *   **Cross-Platform Support:** Automatically detects whether you are running on Windows (using `pip`) or Linux/macOS (using `pip3`).
 *   **Safe & Optimized Execution:** Leverages structural list unpacking using the `*` operator to feed external subprocess arguments reliably.
 *   **Sleek Terminal Output:** Features a distinctive ASCII banner and native interactive hyperlinks using ANSI escape sequences directly in the shell.
@@ -66,128 +70,3 @@ To execute the meta-installer, open a terminal window in the directory where the
 **On Windows Systems:**
 ```bash
 python pyessentials.py [Argument]
-```
-
-**On Linux / macOS Systems:**
-```bash
-python3 pyessentials.py [Argument]
-```
-
-*If you execute the script **without any arguments**, the program will display a welcome message listing the available categories along with a direct link to the project repository so you can review the details for each one.*
-
-
-## 📌 Available Arguments
-
-If you want to see the list of APIs / Libraries on every campus [click here](./List_EN.md) 
-
-You can pass the `-h` flag at any time to display the help menu with detailed descriptions. The currently supported arguments are:
-
-| Flag | Category | Complete |
-| :--- | :--- | :---: |
-| `-A` | **All-In** | &#9745; |
-| `-a` | **Automation** | &#9745; |
-| `-b` | **Big Data** | &#9745; |
-| `-B` | **Bots** | &#9745; |
-| `-d` | **Data Science** | &#9745; |
-| `-D` | **Desktop Apps** | &#9745; |
-| `-V` | **Data Viz** | &#9745; |
-| `-o` | **DevOPS** | &#9745; |
-| `-f` | **FinTech** | &#9745; |
-| `-I` | **IA / AI** | &#9745; |
-| `-i` | **IoT** | &#9745; |
-| `-s` | **SysAdmin** | &#9745; |
-| `-p` | **Phone Apps** | &#9745; |
-| `-v` | **Videogames** | &#9745; |
-| `-w` | **Web (Back-End)**| &#9745; |
-| `-S` | **Web Scraping** | &#9745; |
-| `-h` | **Help** | &#9745; |
-
-
-
-## 🎯 Quick Example
-
-If you want to start learning the Automation track and need to prepare your environment inside a Linux terminal, simply run:
-
-```bash
-python3 pyessentials.py -B
-```
-
-The script will render the custom banner and trigger the bulk installation of the required dependencies seamlessly without further manual tasks.
-
----
-
-# 🇪🇸 Guía en Español
-
-
-## ✨ Características
-
-*   **Instalación Modular:** Elige la categoría exacta de librerías que necesitas según tu área de estudio o trabajo.
-*   **Multiplataforma:** Detecta automáticamente si estás en Windows (usando `pip`) o en Linux/macOS (usando `pip3`).
-*   **Seguridad y Optimización:** Concatenación y desempaquetado estructurado mediante el uso del operador `*` en los argumentos de ejecución.
-*   **Interfaz Atractiva:** Incluye un banner ASCII distintivo y enlaces integrados nativos en la consola mediante códigos de escape ANSI.
-
-
-
-## 🛠️ Requisitos previos
-
-*   **Python 3.x** instalado en el sistema operativo.
-*   El administrador de paquetes **pip** o **pip3** configurado correctamente en las variables de entorno (`PATH`).
-*   Se sugiere ejecutar este instalador dentro de un venv (Espacio Virtual) para proteger la integridad de tus paquetes globales.
-
-
-## 🚀 Uso
-
-Para ejecutar el instalador, abre una terminal en la ruta donde se encuentra guardado el script y pásale el argumento correspondiente a la categoría deseada.
-
-### Sintaxis básica
-
-**En sistemas Windows:**
-```bash
-python pyessentials.py [Argumento]
-```
-
-**En sistemas Linux / macOS:**
-```bash
-python3 pyessentials.py [Argumento]
-```
-
-*Si ejecutas el script **sin argumentos**, el programa mostrará un mensaje de bienvenida que enumera las categorías disponibles junto con un enlace directo al repositorio del proyecto para que puedas consultar los detalles de cada una.*
-
-
-## 📌 Argumentos Disponibles
-
-Si quieres ver la lista de APIs / Librerias de cada campus, [haz click aquí](./List_ES.md)
-
-Puedes usar el parámetro `-h` para desplegar el menú de ayuda con la descripción detallada. Las opciones soportadas actualmente son:
-
-| Argumento | Categoría | Terminado |
-| :--- | :--- | :---: |
-| `-A` | **All-In** | &#9745; |
-| `-a` | **Automation** | &#9745; |
-| `-b` | **Big Data** | &#9745; |
-| `-B` | **Bots** | &#9745; |
-| `-d` | **Data Science** | &#9745; |
-| `-D` | **Desktop Apps** | &#9745; |
-| `-V` | **Data Viz** | &#9745; |
-| `-o` | **DevOPS** | &#9745; |
-| `-f` | **FinTech** | &#9745; |
-| `-I` | **IA / AI** | &#9745; |
-| `-i` | **IoT** | &#9745; |
-| `-s` | **SysAdmin** | &#9745; |
-| `-p` | **Phone Apps** | &#9745; |
-| `-v` | **Videogames** | &#9745; |
-| `-w` | **Web (Back-End)**| &#9745; |
-| `-S` | **Web Scraping** | &#9745; |
-| `-h` | **Help** | &#9745; |
-
----
-
-## 🎯 Ejemplo
-
-Si vas a iniciar en el campus de automatización y necesitas preparar tu entorno en un sistema Linux, abre la terminal y escribe:
-
-```bash
-python3 pyessentials.py -B
-```
-
-El script mostrará el banner principal e iniciará la instalación en bloque de las dependencias requeridas sin intervención manual adicional.
